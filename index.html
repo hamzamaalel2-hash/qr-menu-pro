@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f6f0">
+  <title>URBAN MENU | Café & Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="logo">URBAN MENU</div>
+    <p>CAFE • RESTAURANT</p>
+
+    <div class="social-links">
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+      <a href="https://facebook.com/" target="_blank">Facebook</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Our Menu</h1>
+    <p class="subtitle">Discover our selection</p>
+
+    <nav class="categories">
+      <button onclick="showCategory('all')">All</button>
+      <button onclick="showCategory('coffee')">Coffee</button>
+      <button onclick="showCategory('drinks')">Drinks</button>
+      <button onclick="showCategory('food')">Food</button>
+      <button onclick="showCategory('desserts')">Desserts</button>
+    </nav>
+
+    <section id="menu" class="menu-grid"></section>
+  </main>
+
+  <footer>
+    <p>© 2026 URBAN MENU</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
