@@ -46,6 +46,50 @@ body {
   font-size: 13px;
 }
 
+.google-reviews {
+  background: white;
+  color: #222;
+  max-width: 340px;
+  margin: 25px auto 0;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.google-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.google-stars {
+  color: #fbbc04;
+  font-size: 27px;
+  letter-spacing: 3px;
+  margin: 8px 0;
+}
+
+.google-reviews p {
+  color: #777;
+  font-size: 13px;
+  letter-spacing: normal;
+  margin-bottom: 15px;
+}
+
+.review-button {
+  display: inline-block;
+  background: #4285f4;
+  color: white;
+  text-decoration: none;
+  padding: 11px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.review-button:hover {
+  background: #2868c7;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -157,3 +201,4 @@ footer {
     padding: 11px;
   }
 }
+
